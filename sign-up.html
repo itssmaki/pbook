@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <title>Sign Up for PeaceBook</title>
+   <link rel="stylesheet" type="text/css" href="css/signup.css">
+   <link rel="shortcut icon" href="images/facebook-logo-2019.svg" type="image/x-icon">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<img src="images/logo2.png" class="logo" alt="">
+<div class="main">
+		<div class="container">
+      <form>
+  		<h2 class="first_title">Create a new account</h2>
+ 		<p class="first_sub_title" id="sub_title">It's quick and easy.</p>
+ 		<hr style="height:2px;border-width:0;color:gray;background-color:black">
+  		<form action="/submit-your-form">
+    	<input type="text" placeholder="First Name" class="first_name" id="all" required/>
+    	<input type="text" placeholder="Last Name" class="last_name" id="all"  required/>
+    	<br>
+    	<input type="text" placeholder="Mobile number or email address" id="all1"  required/>
+    	
+    	<input type="password" placeholder="New Password" id="all1" required/>
+    
+    <p class="sub_title_2" id="sub_title_2"> Date of Birth </p>
+    <select> 
+    <option value="1">January</option>
+    <option value="2">February</option>
+    <option value="3">March</option>
+    <option value="4">April</option>
+    <option value="5">May</option>
+    <option value="6">June</option>
+    <option value="7">July</option>
+    <option value="8">August</option>
+    <option value="9">September</option>
+    <option value="10">October</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
+    </select>
+ 
+  <select id="day" name="day">
+        <script>
+      for (var i = 1; i <= 31; i++) {
+        document.write('<option value="' + i + '">' + i + '</option>');
+      }
+    </script>
+  </select>
+
+    <select id="year" name="year">
+    <script>
+      for (var i = 2024; i >= 1900; i--) {
+        document.write('<option value="' + i + '">' + i + '</option>');
+      }
+    </script>
+  </select>
+  <p class="sub_title_3" id="sub_title_2">Gender</p>
+  <div class="female" id="all_gender">
+  	<label for="female">Female</label>
+  	<input type="radio" name="gender" value="female">
+  </div>
+  <div class="male" id="all_gender">
+  	<label for="male">Male</label>
+  	<input type="radio" name="gender" value="Male">
+  </div>
+  <div class="other" id="all_gender">
+  	<label for="other">Custom</label>
+  	<input type="radio" name="gender" value="other">
+  </div>
+   <p class="sub_title_4">
+   	People who use our service may have uploaded your contact information to Peacebook. <a href="#">Learn more.</a>
+  <p class="sub_title_4">
+  	By clicking Sign Up, you agree to our <a href="#">Terms, Privacy Policy</a> and <a href="#">Cookies Policy </a>. You may receive SMS Notifications from us and can opt out any time.
+  </p> 
+  <div class="have-account">
+    <a href="login.html">
+    <input type="submit" name="submit" value="Sign up" class="submit">
+    <span>Already have an Account?</span>
+  </a>
+  </div>
+  
+	</div>
+  <footer class="f-lg-footer">
+    <ul>
+        <li><a href="">English (UK)</a></li>
+        <li><a href="">Filipino</a></li>
+        <li><a href="">Bisaya</a></li>
+        <li><a href="">Español</a></li>
+        <li><a href="">日本語</a></li>
+        <li><a href="">한국어</a></li>
+        <li><a href="">中文(简体)</a></li>
+        <li><a href="">العربية</a></li>
+        <li><a href="">Português (Brasil)</a></li>
+        <li><a href="">Français (France)</a></li>
+        <li><a href="">Deutsch</a></li>
+    </ul>
+    <div class="divider"></div>
+    <ul>  
+        <li><a href="">Sign Up</a></li>
+        <li><a href="">Log In</a></li>
+        <li><a href="">Messenger</a></li>
+        <li><a href="">Facebook Lite</a></li>
+        <li><a href="">Watch</a></li>
+        <li><a href="">Places</a></li>
+        <li><a href="">Games</a></li>
+        <li><a href="">Marketplace</a></li>
+        <li><a href="">Facebook Pay</a></li>
+        <li><a href="">Jobs</a></li>
+        <li><a href="">Oculus</a></li>
+        <li><a href="">Portal</a></li>
+        <li><a href="">Instagram</a></li>
+        <li><a href="">Local</a></li>
+        <li><a href="">Fundraisers</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Voting</a></li>
+        <li><a href="">Information Centre</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Create ad</a></li>
+        <li><a href="">Create Page</a></li>
+        <li><a href="">Developers</a></li>
+        <li><a href="">Careers</a></li>
+        <li><a href="">Privacy</a></li>
+        <li><a href="">Cookies</a></li>
+        <li><a href="">AdChoices</a></li>
+        <li><a href="">Terms</a></li>
+        <li><a href="">Help</a></li>
+        <li><a href="">Settings</a></li>
+    </ul>
+</footer>
+
+  </form>
+</div>
+</body>
+</html>

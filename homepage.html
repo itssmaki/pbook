@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/facebook-logo-2019.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/homepage.css">
+    <title>PeaceBook Home Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="homepage.html">
+				<img src="images/logo.jpg" alt="Logo">
+			</a>
+            <input type="search" placeholder="Search PeaceBook..">
+            <a href="">
+                <i class="fa fa-search"></i>
+            </a>
+            
+        </div>
+        <div class="nav-middle">
+            <a href="#" class="active">
+                <i class="fa fa-home"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-user-friends"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-play-circle"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-users"></i>
+            </a>
+        </div>
+
+        <div class="nav-right">
+            <a href="#">
+                <i class="fas fa-ellipsis-h"></i>
+            </a>
+            <a href="#">
+                <div class="logo-notif">
+                    <i class="fab fa-facebook-messenger"></i>
+                    <div class="notification">
+                        3
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="logo-notif">
+                    <i class="fa fa-bell"></i>
+                    <div class="notification">
+                        13
+                    </div>
+                </div>
+            </a>
+            
+            <div class="profile" onclick="settingsMenuToggle()">
+                <img src="images/picko.jpg" >
+            </div>
+        </div>
+
+        <div class="settings-menu">
+
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+            
+            <div class="settings-dp">
+                <img src="images/picko.jpg">
+            </div>
+            <div class="settings-text">
+                <p>Marcus Muico</p>
+                <a href="marcusprofile.html">See your profile</a>
+            </div>
+
+            <div class="settings-dp">
+                <i class="fa fa-comment"></i>
+            </div>
+            <div class="settings-text">
+                <p>Give Feedback</p>
+                <a href="">Help us improve the new design</a>
+            </div>
+
+            <div class="settings-dp">
+                <i class="fa fa-question-circle"></i>
+            </div>
+            <a href="#" style="text-decoration: none; color: #0b0b0b;">
+                <div class="settings-text">
+                <p style="position: relative; top: 10px;">Help & Support &#10095;</p>
+            </div>
+            </a>
+
+            <div class="settings-dp">
+                <i class="fa fa-cog"></i>
+            </div>
+            <a href="#" style="text-decoration: none; color: #0b0b0b;">
+                <div class="settings-text">
+                <p style="position: relative; top: 10px;">Settings & Privacy &#10095;</p>
+            </div>
+            </a>
+            
+            <div class="settings-dp">
+                <i class="fa fa-moon"></i>
+            </div>
+            <a href="#" style="text-decoration: none; color: #0b0b0b;">
+                <div class="settings-text">
+                <p style="position: relative; top: 10px;">Display & Accessibility &#10095;</p>
+            </div>
+            </a>
+            
+            <div class="settings-dp">
+                <i class="fa fa-sign" aria-hidden="true"></i>
+            </div>
+            <a href="login.html" style="text-decoration: none; color: #0b0b0b;">
+            <div class="settings-text">
+                <p style="position: relative; top: 10px;">Log out &#10095;</p>
+            </div>
+            </a>
+        </div>
+    </nav>
+    
+
+    <div class="container">
+        <div class="left-panel">
+            <ul>
+                <a href="marcusprofile.html">
+                    <li>
+                        <img src="images/picko.jpg" alt="">
+                        Marcus Muico
+                    </li>
+                </a>
+                
+                <li>
+                    <i data-visualcompletion="css-img" class="" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png?_nc_eui2=AeF_47-xWKE0PgRuQq3iBJ6JpjWidniF_5qmNaJ2eIX_mmhc-64MvzUVJOEW5p4Clyn5LciVTZd4w0Cvl1JMK_HF&quot;); background-position: 0px -304px; background-size: 38px 570px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                    <p>Friends</p>
+                </li>
+                <li>
+                    <i data-visualcompletion="css-img" class="" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png?_nc_eui2=AeF_47-xWKE0PgRuQq3iBJ6JpjWidniF_5qmNaJ2eIX_mmhc-64MvzUVJOEW5p4Clyn5LciVTZd4w0Cvl1JMK_HF&quot;); background-position: 0px -532px; background-size: 38px 570px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                    <p>Videos</p>
+                </li>
+                <li>
+                    <img src="images/feeds.jpg" alt="">
+                    <p>Pages</p>
+                </li>
+                <li>
+                    <i data-visualcompletion="css-img" class="" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png?_nc_eui2=AeF_47-xWKE0PgRuQq3iBJ6JpjWidniF_5qmNaJ2eIX_mmhc-64MvzUVJOEW5p4Clyn5LciVTZd4w0Cvl1JMK_HF&quot;); background-position: 0px -38px; background-size: 38px 570px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                    <p>Groups</p>
+                </li>
+                <li>
+                    <i data-visualcompletion="css-img" class="" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png?_nc_eui2=AeF_47-xWKE0PgRuQq3iBJ6JpjWidniF_5qmNaJ2eIX_mmhc-64MvzUVJOEW5p4Clyn5LciVTZd4w0Cvl1JMK_HF&quot;); background-position: 0px -190px; background-size: 38px 570px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                    <p>Saved</p>
+                </li>
+                <li>
+                    <i data-visualcompletion="css-img" class="" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/l_0qhXdFqCW.png?_nc_eui2=AeENPRPsgPa0lXCA8TYNI2j0TCk-fRGYuihMKT59EZi6KCP01BX8YhhKsBjglPrMzaEVSv5T0pj0K_V1Hi30qYam&quot;); background-position: 0px 0px; background-size: 38px 130px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                    <p>Messenger</p>
+                </li>
+                <li>
+                    <i data-visualcompletion="css-img" class="" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/vWSUA-u7jLw.png?_nc_eui2=AeHxwaQ6gmNXm9hqt7w9IOgiqH6dSHmssQ2ofp1IeayxDaWZS9o9XNyoqcDsWWVdgT38qqAB92SqIytzLcZ2BsyA&quot;); background-position: 0px -38px; background-size: 38px 76px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                    <p>Events</p>
+                </li>
+                <li>
+                    <i data-visualcompletion="css-img" class="" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png?_nc_eui2=AeF_47-xWKE0PgRuQq3iBJ6JpjWidniF_5qmNaJ2eIX_mmhc-64MvzUVJOEW5p4Clyn5LciVTZd4w0Cvl1JMK_HF&quot;); background-position: 0px -456px; background-size: 38px 570px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                    <p>Memories</p>
+                </li>
+            </ul>
+
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Advance</a>
+                <a href="#">More</a>
+            </div>
+        </div>
+
+        <div class="middle-panel">
+                <div class="stories-section">
+                    <div class="nav-buttons">
+                        <button class="nav-button left" id="slideLeft" type="button" onclick="scrollStories(-275)">&#10094;</button>
+                        <button class="nav-button right" id="slideRight" type="button" onclick="scrollStories(275)">&#10095;</button>
+                    </div>
+                        
+                    <div class="parent-con">
+                        <div class="stories-container">
+                            <div class="story">
+                                <div style="background: linear-gradient(rgba(0,0,0,0) 50%, rgb(0, 0, 0) 100%), url('images/mcr.jpeg'); background-size: cover; width: 100%; height: 100%; border-radius: 8px;"></div>                                <div class="story-overlay music">
+                                    <span style="text-align: center; font-size: 14px;">Share music<br>you love</span>
+                                </div>
+                            </div>
+                            <div class="story" >
+                                <img src="images/picko.jpg" alt="Story Image" class="create-story">
+                                <div class="story-overlay">
+                                    <div class="create-btn">&#x2B;</div>
+                                    <span class="story-author" style="text-align: center;">Create story</span>
+                                </div>
+                            </div>
+                            <div class="story">
+                                <img src="images/picko.jpg" class="profile-story">
+                                <img src="" class="online">
+                                <img src="images/storyko.jpg" class="story-image" id="story-image">
+                                <div class="story-overlay">
+                                    <span >Marcus Muico</span>
+                                </div>
+                            </div>
+                            <div class="story">
+                                <img src="images/bruno.jpg" class="profile-story">
+                                <img src="" class="online">
+                                <img src="images/bruno2.jpg" class="story-image" id="story-image">
+                                <div class="story-overlay">
+                                    <span >Bruno Mars</span>
+                                </div>
+                            </div>
+                            <div class="story">
+                                <img src="images/sonny.jpg" class="profile-story">
+                                <img src="" class="online">
+                                <img src="images/sonny2.jpg" class="story-image" id="story-image">
+                                <div class="story-overlay">
+                                    <span >Sonny Lirio</span>
+                                </div>
+                            </div>
+                            <div class="story">
+                                <img src="images/tracy.jpg" class="profile-story">
+                                <img src="images/tracy2.jpg" class="story-image" id="story-image">
+                                <div class="story-overlay">
+                                    <span >Tracy Caryll Dato Alamo</span>
+                                </div>
+                            </div>
+                            <div class="story">
+                                <img src="images/kc.jpg" class="profile-story">
+                                <img src="" class="online">
+                                <img src="images/kc2.jpg" class="story-image" id="story-image">
+                                <div class="story-overlay">
+                                    <span >KC Lanoria</span>
+                                </div>
+                            </div>
+                            <div class="story">
+                                <img src="images/sirjonni.jpg" class="profile-story">
+                                <img src="" class="online">
+                                <img src="images/jonnifer/13.jpg" class="story-image" id="story-image">
+                                <div class="story-overlay">
+                                    <span >Jonnifer Mandigma </span>
+                                </div>
+                            </div>
+
+                            <div class="story">
+                                <img src="images/johnwick.jpg   " class="profile-story">
+                                <img src="" class="online">
+                                <img src="images/John Wick/3.jpeg" class="story-image" id="story-image">
+                                <div class="story-overlay">
+                                    <span >John Wick</span>
+                                </div>
+                            </div>
+                            <div class="story">
+                                <img src="images/Mrbean.jpeg" class="profile-story">
+                                <img src="" class="online">
+                                <img src="images/mrbean/15.jpg" class="story-image" id="story-image">
+                                <div class="story-overlay">
+                                    <span >Mr Bean</span>
+                                </div>
+                            </div>
+                            <div class="story">
+                                <img src="images/manny.jpeg" class="profile-story">
+                                <img src="" class="online">
+                                <img src="images/Manny/manny11.jpeg" class="story-image" id="story-image">
+                                <div class="story-overlay">
+                                    <span >Manny Pacquiao</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="post create">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/picko.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="What's on your mind, Marcus ?" />
+                </div>
+                
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="fa fa-video" style="color: red;"></i>
+                        <span>Live video</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-image" style="color: green;"></i>
+                        <span>Photo/Video</span>
+                    </div>
+                    <div class="action"> 
+                        <i class="fa fa-smile" style="color: gold;"></i>
+                        <span>Feeling/Activity</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp" >
+                        <img src="./images/picko.jpg" alt="">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Marcus Muico</p>
+                        <span class="time">5 mins ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+
+                <div class="post-content">
+                    MGA MAY UTANG JAN MAG BAYAD NA 
+                    BAKA NAMAN DIBA WLA NA MAKAIN UNG TAO
+                </div>
+                <div class="detail" style="margin-bottom: 10px;">
+                    <div class="react">
+                        <img src="images/haha.svg" style="position: relative; left: 4px;" alt="">
+                        <a href="#">1</a>
+                    </div>
+                    <div class="comment-left">
+                        <a href="#">1 comment</a>
+                        <a href="#">3 shares</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/tracy.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>Tracy Caryll Dato Alamo</b></p>
+                        <span class="time">Mention mo nga</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>30sec</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-site">
+                    <div class="profil-ing-div">
+                        <a href="#" id="profile-link">
+                            <img id="Profile_images" src="images/picko.jpg">
+                        </a>
+                    </div>
+                    <div class="comment-input">
+                        <input type="text" placeholder="Write a comment…">
+                        <div class="comment-icon-div">
+                            <div>
+                                <i class="far fa-grin-alt"></i>
+                            </div>
+                            <div>
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-gift"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-sticky-note"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/kc.jpg" alt="">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">KC Lanoria</p>
+                        <span class="time">1 hour ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                    <span>just us always being goofy</span>
+                </div>
+                <div class="newsfeed">
+                    <img src="./images/kcpost1.jpg" alt="">
+                    <img src="./images/kcpost2.jpg" alt="">
+                    <img src="./images/kcpost3.jpg" alt="">
+                    <img src="./images/kcpost4.jpg" alt="">
+                </div>
+                <div class="detail" style="margin-bottom: 10px;">
+                    <div class="react">
+                        <img src="images/heart.svg" style="position: relative; left: 4px;" alt="">
+                        <img src="images/like.svg" alt="">
+                        <a href="#">20k</a>
+                    </div>
+                    <div class="comment-left">
+                        <a href="#">2 comments</a>
+                        <a href="#">1k shares</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/sonny.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>Sonny Lirio</b></p>
+                        <span class="time">Tamis</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>30m</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/tracy.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>Tracy Caryll Dato Alamo</b></p>
+                        <span class="time">SANAOLLLL!!!</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>3m</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-site">
+                    <div class="profil-ing-div">
+                        <a href="#" id="profile-link">
+                            <img id="Profile_images" src="images/picko.jpg">
+                        </a>
+                    </div>
+                    <div class="comment-input">
+                        <input type="text" placeholder="Write a comment…">
+                        <div class="comment-icon-div">
+                            <div>
+                                <i class="far fa-grin-alt"></i>
+                            </div>
+                            <div>
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-gift"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-sticky-note"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/sonny.jpg" alt="">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Sonny Lirio</p>
+                        <span class="time">36 mins ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                    Pogi ng Makati
+                    <img src="./images/sonnypost.jpg" alt="">
+                </div>
+                <div class="detail" style="margin-bottom: 10px;">
+                    <div class="react">
+                        <img src="images/heart.svg" style="position: relative; left: 4px;" alt="">
+                        <img src="images/like.svg" alt="">
+                        <a href="#">69k</a>
+                    </div>
+                    <div class="comment-left">
+                        <a href="#">2 comments</a>
+                        <a href="#">9k shares</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/picko.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>Marcus Muico</b></p>
+                        <span class="time">Kuya pakiss mga lima</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>30m</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/kc.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>KC Lanoria</b></p>
+                        <span class="time">k0y@ CrU$h k3ta 😍🥰😘</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>3m</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-site">
+                    <div class="profil-ing-div">
+                        <a href="#" id="profile-link">
+                            <img id="Profile_images" src="images/picko.jpg">
+                        </a>
+                    </div>
+                    <div class="comment-input">
+                        <input type="text" placeholder="Write a comment…">
+                        <div class="comment-icon-div">
+                            <div>
+                                <i class="far fa-grin-alt"></i>
+                            </div>
+                            <div>
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-gift"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-sticky-note"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/tracy.jpg" alt="">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Tracy Caryll Dato Alamo</p>
+                        <span class="time">30 mins ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                   Congrats Wines!! <3
+                    <img src="./images/tracy3.jpg" alt="">
+                </div>
+                <div class="detail" style="margin-bottom: 10px;">
+                    <div class="react">
+                        <img src="images/heart.svg" style="position: relative; left: 4px;" alt="">
+                        <img src="images/like.svg" alt="">
+                        <a href="#">100</a>
+                    </div>
+                    <div class="comment-left">
+                        <a href="#">50 comments</a>
+                        <a href="#">10 shares</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/picko.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>Marcus Muico</b></p>
+                        <span class="time">congrats</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>10 mins</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/kc.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>KC Lanoria</b></p>
+                        <span class="time">congrats, re</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>3m</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-site">
+                    <div class="profil-ing-div">
+                        <a href="#" id="profile-link">
+                            <img id="Profile_images" src="images/picko.jpg">
+                        </a>
+                    </div>
+                    <div class="comment-input">
+                        <input type="text" placeholder="Write a comment…">
+                        <div class="comment-icon-div">
+                            <div>
+                                <i class="far fa-grin-alt"></i>
+                            </div>
+                            <div>
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-gift"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-sticky-note"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/mandy/mandy.jpg" alt="">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Mandy France Francisco</p>
+                        <span class="time">30 mins ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                   <3
+                    <img src="./images/mandy/p1.jpg" alt="">
+                </div>
+                <div class="detail" style="margin-bottom: 10px;">
+                    <div class="react">
+                        <img src="images/heart.svg" style="position: relative; left: 4px;" alt="">
+                        <img src="images/like.svg" alt="">
+                        <a href="#">100</a>
+                    </div>
+                    <div class="comment-left">
+                        <a href="#">50 comments</a>
+                        <a href="#">10 shares</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/picko.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>Marcus Muico</b></p>
+                        <span class="time">congrats</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>10 mins</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/kc.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>KC Lanoria</b></p>
+                        <span class="time">congrats, re</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>3m</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-site">
+                    <div class="profil-ing-div">
+                        <a href="#" id="profile-link">
+                            <img id="Profile_images" src="images/picko.jpg">
+                        </a>
+                    </div>
+                    <div class="comment-input">
+                        <input type="text" placeholder="Write a comment…">
+                        <div class="comment-icon-div">
+                            <div>
+                                <i class="far fa-grin-alt"></i>
+                            </div>
+                            <div>
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-gift"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-sticky-note"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/Mrbean.jpeg" alt="">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Mr. Bean</p>
+                        <span class="time">30 mins ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                   haha
+                    <img src="./images/mrbean/9.jpeg" alt="">
+                </div>
+                <div class="detail" style="margin-bottom: 10px;">
+                    <div class="react">
+                        <img src="images/heart.svg" style="position: relative; left: 4px;" alt="">
+                        <img src="images/like.svg" alt="">
+                        <a href="#">100</a>
+                    </div>
+                    <div class="comment-left">
+                        <a href="#">50 comments</a>
+                        <a href="#">10 shares</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/picko.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>Marcus Muico</b></p>
+                        <span class="time">congrats</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>10 mins</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/kc.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>KC Lanoria</b></p>
+                        <span class="time">congrats, re</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>3m</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-site">
+                    <div class="profil-ing-div">
+                        <a href="#" id="profile-link">
+                            <img id="Profile_images" src="images/picko.jpg">
+                        </a>
+                    </div>
+                    <div class="comment-input">
+                        <input type="text" placeholder="Write a comment…">
+                        <div class="comment-icon-div">
+                            <div>
+                                <i class="far fa-grin-alt"></i>
+                            </div>
+                            <div>
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-gift"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-sticky-note"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/johnwick.jpg" alt="">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">John Wick</p>
+                        <span class="time">30 mins ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                   bang
+                    <img src="./images/John Wick/8.jpg" alt="">
+                </div>
+                <div class="detail" style="margin-bottom: 10px;">
+                    <div class="react">
+                        <img src="images/heart.svg" style="position: relative; left: 4px;" alt="">
+                        <img src="images/like.svg" alt="">
+                        <a href="#">100</a>
+                    </div>
+                    <div class="comment-left">
+                        <a href="#">50 comments</a>
+                        <a href="#">10 shares</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/picko.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>Marcus Muico</b></p>
+                        <span class="time">congrats</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>10 mins</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/kc.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>KC Lanoria</b></p>
+                        <span class="time">congrats, re</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>3m</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-site">
+                    <div class="profil-ing-div">
+                        <a href="#" id="profile-link">
+                            <img id="Profile_images" src="images/picko.jpg">
+                        </a>
+                    </div>
+                    <div class="comment-input">
+                        <input type="text" placeholder="Write a comment…">
+                        <div class="comment-icon-div">
+                            <div>
+                                <i class="far fa-grin-alt"></i>
+                            </div>
+                            <div>
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-gift"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-sticky-note"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/manny.jpeg" alt="">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Manny Pacquiao</p>
+                        <span class="time">30 mins ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                   ez win
+                    <img src="./images/Manny/manny12.jpeg" alt="">
+                </div>
+                <div class="detail" style="margin-bottom: 10px;">
+                    <div class="react">
+                        <img src="images/heart.svg" style="position: relative; left: 4px;" alt="">
+                        <img src="images/like.svg" alt="">
+                        <a href="#">100</a>
+                    </div>
+                    <div class="comment-left">
+                        <a href="#">50 comments</a>
+                        <a href="#">10 shares</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/picko.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>Marcus Muico</b></p>
+                        <span class="time">congrats</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>10 mins</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/kc.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>KC Lanoria</b></p>
+                        <span class="time">congrats, re</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>3m</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-site">
+                    <div class="profil-ing-div">
+                        <a href="#" id="profile-link">
+                            <img id="Profile_images" src="images/picko.jpg">
+                        </a>
+                    </div>
+                    <div class="comment-input">
+                        <input type="text" placeholder="Write a comment…">
+                        <div class="comment-icon-div">
+                            <div>
+                                <i class="far fa-grin-alt"></i>
+                            </div>
+                            <div>
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-gift"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-sticky-note"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-top">
+                    <div class="dp">
+                        <img src="./images/sirjonni.jpg" alt="">
+                    </div>
+                    <div class="post-info">
+                        <p class="name">Jonnifer Mandigma</p>
+                        <span class="time">30 mins ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="post-content">
+                   hi
+                    <img src="./images/jonnifer/10.jpg" alt="">
+                </div>
+                <div class="detail" style="margin-bottom: 10px;">
+                    <div class="react">
+                        <img src="images/heart.svg" style="position: relative; left: 4px;" alt="">
+                        <img src="images/like.svg" alt="">
+                        <a href="#">100</a>
+                    </div>
+                    <div class="comment-left">
+                        <a href="#">50 comments</a>
+                        <a href="#">10 shares</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="post-bottom">
+                    <div class="action">
+                        <i class="far fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </div>
+                    <div class="action">
+                        <i class="far fa-comment"></i>
+                        <span>Comment</span>
+                    </div>
+                    <div class="action">
+                        <i class="fa fa-share"></i>
+                        <span>Share</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/picko.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>Marcus Muico</b></p>
+                        <span class="time">congrats</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>10 mins</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-section">
+                    <div class="dp-comment">
+                        <img src="images/kc.jpg" alt="">
+                    </div>
+                    <div class="comment">
+                        <p class="name"><b>KC Lanoria</b></p>
+                        <span class="time">congrats, re</span>
+                    </div>
+                </div>
+                <div class="comment-time">
+                    <span>3m</span>
+                    <span>Like</span>
+                    <span>Reply</span>
+                </div>
+                <div class="comment-site">
+                    <div class="profil-ing-div">
+                        <a href="#" id="profile-link">
+                            <img id="Profile_images" src="images/picko.jpg">
+                        </a>
+                    </div>
+                    <div class="comment-input">
+                        <input type="text" placeholder="Write a comment…">
+                        <div class="comment-icon-div">
+                            <div>
+                                <i class="far fa-grin-alt"></i>
+                            </div>
+                            <div>
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-gift"></i>
+                            </div>
+                            <div>
+                                <i class="fa fa-sticky-note"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <div class="pages-section">
+                <div id="birthday-label">Birthdays</div>
+                <a href="#" class="page">
+                    <div class="rightbar-menu-con">
+                        <div><i data-visualcompletion="css-img" aria-hidden="true" style="height:36px;width:36px;background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yy/r/tIgTWaivCoy.png?_nc_eui2=AeFnVmkaaDG4JmJZmWRSFoUOs_Sg92Yk1mez9KD3ZiTWZ1Lr2Rjt-CbPdkkJ-daTvyGVdwFnTL61F2-zwL1nHYv7');
+                        background-position:0 0;background-size:38px 56px;background-repeat:no-repeat;display:inline-block"></i></div>
+                        <div class="dp"><strong>Sonny Lirio</strong> and <strong>KC Lanoria</strong> have birthdays today.</div>
+                    </div>
+                </a>
+            </div>
+            <hr>
+            <div class="friends-section">
+                <div id="contact-label">Contacts</div>
+                <a class='friend' href="tracyprofile.html">
+                    <div class="dp">
+                        <img src="./images/tracy.jpg" alt="">
+                    </div>
+                    <p class="name">Tracy Caryll Dato Alamo</p>
+                </a>
+
+                <a class='friend' href="sonnyprofile.html">
+                    <div class="dp">
+                        <img src="./images/sonny.jpg" alt="">
+                    </div>
+                    <p class="name">Sonny Lirio</p>
+                </a>
+
+                <a class="friend" href="kcprofile.html">
+                    <div class="dp">
+                        <img src="./images/kc.jpg" alt="">
+                    </div>
+                    <p class="name">KC Lanoria</p>
+                </a>
+
+                <a class="friend" href="mandyprofile.html">
+                    <div class="dp">
+                        <img src="./images/mandy/mandy.jpg" alt="">
+                    </div>
+                    <p class="name">Mandy France Francisco</p>
+                </a>
+
+                <a class="friend" href="mrbeanprofile.html">
+                    <div class="dp">
+                        <img src="./images/Mrbean.jpeg" alt="">
+                    </div>
+                    <p class="name">Mr. Bean</p>
+                </a>
+
+                <a class="friend" href="johnwickprofile.html">
+                    <div class="dp">
+                        <img src="./images/johnwick.jpg" alt="">
+                    </div>
+                    <p class="name">John Wick</p>
+                </a>
+
+                <a class="friend" href="jonniprofile.html">
+                    <div class="dp">
+                        <img src="./images/sirjonni.jpg" alt="">
+                    </div>
+                    <p class="name">Jonnifer Mandigma</p>
+                </a>
+
+                <a class="friend" href="Mannyprofile.html">
+                    <div class="dp">
+                        <img src="./images/manny.jpeg" alt="">
+                    </div>
+                    <p class="name">Manny Pacquiao</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="js/homepage.js"></script>
+</body>
+</html>
